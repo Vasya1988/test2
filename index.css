@@ -71,7 +71,13 @@
     max-width: 634px;
     height: 100%;
     background-color: #57b8ff;
-    grid-column: 1fr;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.bunners-frame img {
+    position: relative;
+    right: 72px;
 }
 .block-one_info {
     width: 100%;
@@ -96,6 +102,9 @@
     width: 100%;
     max-width: 660px;
 }
+.block-one_info-text span {
+    color: #999;
+}
 .yellow_line {
     position: relative;
     left: 216px;
@@ -118,6 +127,23 @@
     font-size: 11px;
     text-transform: uppercase;
 }
+.buttons {
+    display: flex;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+.button:first-child { 
+    background-color:#57b8ff; 
+}
+.button {
+    padding: 21px 34px;
+    /* background-color: #57b8ff; */
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+}
+
 
 .block-two {
     width: 100%;
