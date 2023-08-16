@@ -237,5 +237,29 @@ h1 {
 footer {
     width: 100%;
     height: 507px;
+    padding: 130px 60px 0 60px;
+    box-sizing: border-box;
     background-color: #222730;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-title {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-nav {
+    list-style: none;
+}
+.footer-nav li {
+    margin-bottom: 16px;
+}
+.footer-nav a {
+    font-size: 15px;
+    color: #999;
+    text-decoration: none;
+}
+.footer-logo {
+    width: 100%;
+    max-width: 294px;
 }
