@@ -49,14 +49,19 @@
     width: 100%;
     max-width: 178px;
     height: 62px;
+    
+}
+.contact-us a {
+    width: 100%;
+    max-width: 178px;
+    height: 62px;
+    text-decoration: none;
+    color: #fff;
     border: 2px solid #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.contact-us a{
-    text-decoration: none;
-    color: #fff;
+    background-color:#57b8ff;
 }
 
 .container {
@@ -262,4 +267,197 @@ footer {
 .footer-logo {
     width: 100%;
     max-width: 294px;
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 44px;
+    }
+    .header {
+        max-width: 1024px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        z-index: 1;
+    }
+    .block-one {
+        height: 768px;
+    }
+    .yellow_line {
+        left: 128px;
+        bottom: 62px;
+    }
+    .yellow_line svg {
+        width: 274px;
+    }
+    .bunners-frame {
+        max-width: 468px;
+    }
+    .bunners-frame img {
+        right: 40px;
+        max-width: 524px;
+    }
+    .discription {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    /* --- block 2 --- */
+    .block-two {
+        position: relative;
+    }
+    .character-image img {
+        max-width: 412px;
+    }
+    .block-two_info h1 {
+            font-size: 44px;
+    }
+    .gallery {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 54px;
+        justify-content: space-evenly;
+    }
+    .block-two_info {
+        width: 100%;
+        max-width: 596px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 100px;
+        margin-left: 20px;
+    }
+    /* --- block 3 --- */
+    .block-three {
+        height: 736px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .articles {
+
+    }
+    .article-bigger img {
+        max-width: 400px;
+    }
+    .article_small img {
+        max-width: 186px;
+    }
+    .article-title, .article-sign {
+        font-size: 14px;
+    }
+    .article-bigger .article-title {
+        font-size: 22px;
+    }
+    .footer {
+        height: 320px;
+        padding: 0 60px;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 34px;
+    }
+    .header {
+        max-width: 768px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    .header-nav {
+        max-width: 318px;
+    }
+    .header .logo svg {
+        max-width: 138px;
+    }
+    .cart-contact {
+        width: 100%;
+    }
+    .contact-us {
+        max-width: 120px;
+        height: 46px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .contact-us a {
+        height: 46px;
+    }
+    .cart svg{
+        max-width: 44px;
+    }
+    .block-one {
+        height: 668px;
+    }
+    .bunners-frame {
+        max-width: 360px;
+    }
+    .bunners-frame img {
+        right: 32px;
+        max-width: 396px;
+    }
+    .yellow_line {
+        left: 100px;
+        bottom: 50px;
+    }
+    .yellow_line svg {
+        width: 214px;
+    }
+    .button {
+        padding: 12px 24px;
+    }
+    .discription {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .block-two {
+        height: 536px;
+    }
+    .block-two_info {
+        margin-bottom: 144px;
+        margin-left: 44px;
+    }
+    .block-two_info h1 {
+        font-size: 36px;
+    }
+    .character-image img {
+        max-width: 300px;
+    }
+    .gallery {
+        bottom: 34px;
+    }
+    .block-three {
+        padding: 0 30px;
+        height: 634px;
+        justify-content: space-evenly;
+    }
+    .articles {
+        grid-gap: 14px;
+    }
+    .article-bigger img {
+        max-width: 346px;
+    }
+    .article_small img {
+        width: 100%;
+        /* max-width: 140px; */
+    }
+}
+
+@media screen and (max-width: 684px) {
+    .header {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px 0;
+    }
+    .header .logo svg {
+        max-width: inherit;
+    }
+    .header-nav {
+        max-width: 684px;
+        padding: 0 32px;
+        box-sizing: border-box;
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
 }
