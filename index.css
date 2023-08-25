@@ -93,7 +93,7 @@
     max-width: 806px;
     height: 100%;
     display: grid;
-    grid-template-columns: 0fr 4fr;
+    grid-template-columns: 1fr 12fr; /*  0fr 4fr; */
     align-items: center;
     align-content: center;
     color: #fff;
