@@ -269,6 +269,35 @@ footer {
     max-width: 294px;
 }
 
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 60px;
+    }
+    .header {
+        padding: 0 30px;
+        max-width: 1280px;
+        box-sizing: border-box;
+        z-index: 1;
+
+    }
+    .yellow_line {
+        left: 174px;
+        bottom: 84px;
+    }
+    .yellow_line svg {
+        width: 374px;
+    }
+    .article-bigger img {
+        width: 100%;
+    }
+    .article_small {
+        width: 244px;
+    }
+    .article_small img {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     h1 {
         font-size: 44px;
